@@ -200,7 +200,7 @@
 | 사용 기술 | Isolation Forest나 Autoencoder 같은 모델로 AI 기반 이상 탐지 |
 | 기대 효과 | 손실 최소화 |
 | GitHub Repo | [https://github.com/Cloud9-capstone-2026](https://github.com/Cloud9-capstone-2026) |
-| Team Ground Rule |  |
+| Team Ground Rule | [Team Ground Rule](https://github.com/Cloud9-capstone-2026/Team_Ground_Rule.md) |
 | 최종수정일 |  |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
