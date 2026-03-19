@@ -15,7 +15,7 @@
 | [12](#team-12) | 404 | 산학 | 여성 1인 여행자를 위한 세이프티 가이드 서비스 제공 시스템 |
 | [13](#team-13) | Semicolone; | 산학 | AI 자서전 |
 | [14](#team-14) | def | 연구 | Agent AI 추론을 위한 메모리 효율 최적화 |
-| [15](#team-15) | 햄부기 | 연구 | Split-Computing Vision Inference System |
+| [15](#team-15) | 햄부기 | 연구 | 엣지 환경 배포를 위한 Vision Transformer 구조적 가지치기 및 경량화 파이프라인 구축과 성능 분석 |
 | [16](#team-16) | 퓨터 | 산학| 감정 MATRIX 기반 사용자 맞춤형 AI 영어 회화 학습 서비스 |
 | [17](#team-17) | SPY | 산학 | AI를 활용한 유튜브 댓글 기반 인터넷 밈 트렌드 분석 플랫폼 |
 | [18](#team-18) | 디바트(deep-art) |  |  |
@@ -328,16 +328,16 @@
 
 | 항목 | 내용 |
 |------|------|
-| 프로젝트명 | Split-Computing Vision Inference System |
+| 프로젝트명 | 엣지 환경 배포를 위한 Vision Transformer 구조적 가지치기 및 경량화 파이프라인 구축과 성능 분석 |
 | 트랙 | 연구 |
 | 팀명 | 햄부기 |
 | 팀구성 | 신성현, 송영채, 장수연 |
 | 팀지도교수 | 심재형 |
-| 무엇을 만들고자 하는가 | 엣지 장치와 클라우드 서버가 협력하여 이미지를 빠르게 분석하는 분산 AI 추론 시스템 |
-| 고객 (누구를 위해) | AI 기반 서비스를 개발하는 학생 팀 및 연구 프로젝트 수행자를 위해 |
-| Pain Point (해결할 문제) | 엣지 장치에서 AI 모델을 실행할 때 발생하는 높은 연산 부담과 네트워크 지연 문제를 해결하기 위해 |
-| 사용 기술 | Computer Vision 모델과 Edge–Cloud Split Inference 기술을 사용하여 일부 연산은 엣지에서, 나머지는 클라우드에서 처리하는 방식 사용 |
-| 기대 효과 | AI 추론 속도를 개선하고 네트워크 사용량을 줄이며, 제한된 연산 자원을 가진 장치에서도 효율적인 AI 서비스가 가능해진다 |
+| 무엇을 만들고자 하는가 | Vision Transformer 모델에 구조적 가지치기를 적용하여 경량화하고, 가지치기부터 엣지 디바이스 배포까지의 전 과정을 자동화된 하나의 파이프라인으로 구성하고자 한다|
+| 고객 (누구를 위해) | 제한된 연산 자원의 엣지 환경에서 AI 모델을 배포하려는 학생 팀 및 연구 프로젝트 수행자를 위해 |
+| Pain Point (해결할 문제) | ViT 계열 모델은 높은 성능을 보이지만 모델 크기와 연산량이 커서 Jetson과 같은 엣지 디바이스에 직접 배포하기 어려우며, 기존 연구들은 서버 GPU 환경에서의 실험에 그쳐 실제 엣지 환경에서의 경량화 효과 검증이 부족한 문제를 해결하기 위해 |
+| 사용 기술 | Vision Transformer(ViT) 계열 모델과 구조적 가지치기(Structural Pruning) 기법을 사용하여 모델 헤드·레이어 단위의 구조적 압축을 수행하고, 엣지 디바이스(Jetson 등) 기반의 추론 파이프라인 구성 |
+| 기대 효과 | 엣지 디바이스 환경에서의 추론 속도, 정확도, 전력 효율을 정량적으로 검증하여 ViT의 현장 적용 가능성을 높이고, 경량화 파이프라인을 통해 유사 연구의 재현성과 활용성을 제고한다 |
 | GitHub Repo | [https://github.com/Ewha-Capstone-Project/Hambugy.git](https://github.com/Ewha-Capstone-Project/Hambugy.git) |
 | Team Ground Rule | [https://github.com/Ewha-Capstone-Project/Hambugy/blob/main/Team_Ground_Rule.md](https://github.com/Ewha-Capstone-Project/Hambugy/blob/main/Team_Ground_Rule.md) |
 | 최종수정일 | 26/03/14 |
