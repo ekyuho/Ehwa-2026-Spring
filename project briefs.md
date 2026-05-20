@@ -216,16 +216,16 @@
 | 팀명 | Cloud9 |
 | 팀구성 | 박나림, 임도경, 최은우 |
 | 팀지도교수 | 이민수 |
-| 무엇을 만들고자 하는가 | 개인 주식 투자자의 매매 로그를 AI로 분석하여 비이성적 매매 패턴을 자동 탐지하고 분석을 통해 손실의 원인을 데이터 기반으로 설명하며, 투자자 스스로 잘못된 습관을 인지하도록 돕고 투자자 페르소나에 맞는 맞춤형 투자 습관 개선 방향을 제시하는 플랫폼 |
+| 무엇을 만들고자 하는가 | 개인 주식 투자자의 매매 로그를 AI로 분석하여 비이성적 매매 패턴을 자동 탐지하고, 손실의 원인을 데이터 기반으로 설명하여 투자자 스스로 자신의 매매 패턴을 인지할 수 있도록 돕는 매매 행동 분석 플랫폼 |
 | 고객 (누구를 위해) | 반복적인 손실을 겪는 일반 개인 투자자. 2020년 이후 국내 개인 투자자 수가 역대 최고치를 기록하고 있으나, 대다수가 감정 기반 매매를 반복하며 손실을 겪고 있음|
-| Pain Point (해결할 문제) | 기존 금융 서비스는 종목 추천, 시장 분석 등 '무엇을 살지'에만 집중할 뿐, 투자자가 '왜 반복해서 잃는지'에 대한 원인 분석이 전무하다. 투자자 본인도 인지하지 못하는 비이성적 매매 행동(추격매수, 패닉셀, 손실 복구 심리 등)을 객관적인 데이터로 진단하고 개선 방향을 제시하는 서비스가 국내에는 존재하지 않는다. |
-| 사용 기술 | Front(React, Recharts, WebSocket client), Back(Python, FastAPI, SQLAlchemy, WebSocket), AI(PyTorch, SHAP, Scikit-learn, Pandas, NumPy)  |
-| 개발환경 | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), WebSocket client, Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, SHAP
-| 사용하는 소프트웨어 URL | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), WebSocket client, Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, SHAP
+| Pain Point (해결할 문제) | 기존 금융 서비스는 종목 추천, 시장 분석 등 '무엇을 살지'에만 집중할 뿐, 투자자가 '왜 반복해서 잃는지'에 대한 원인 분석이 전무함. 투자자 본인도 인지하지 못하는 비이성적 매매 패턴을 객관적인 데이터로 진단하고 분석하는 서비스가 국내에는 존재하지 않음. |
+| 사용 기술 | Front(React, Recharts), Back(Python, FastAPI, SQLAlchemy), AI(PyTorch, Integrated Gradients, Scikit-learn, Pandas, NumPy)  |
+| 개발환경 | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, Integrated Gradients
+| 사용하는 소프트웨어 URL | 1. Client 디바이스 - PC, Mobile Web <br> 2. FE - React(javascript), Recharts <br> 3. BE - FastAPI <br> 4. DB - PostgreSQL <br> 5. (BE) - Pandas/NumPy, Scikit-learn, PyTorch, Integrated Gradients
 | 기대 효과 | 투자자 본인도 인지하지 못했던 비이성적 매매 행동을 데이터로 직면하게 하여 손실 원인을 스스로 이해하고 투자 습관을 개선할 수 있도록 지원. 장기적으로 개인 투자자의 실질적인 손실 방어 및 건전한 투자 습관 형성에 기여 |
 | GitHub Repo | https://github.com/Cloud9-capstone-2026/cloud9 |
 | Team Ground Rule | [Team Ground Rule](https://github.com/Cloud9-capstone-2026/cloud9/blob/main/Team_Ground_Rule.md) |
-| 최종수정일 | 2026.05.04 |
+| 최종수정일 | 2026.05.19 |
 
 [↑ 목록으로](#2026-spring-전체-프로젝트-리스트)
 
